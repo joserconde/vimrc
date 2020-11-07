@@ -1,0 +1,24 @@
+[submodule "pack/mods/start/nerdtree"]
+	path = pack/mods/start/nerdtree
+	url = https://github.com/scrooloose/nerdtree
+[submodule "pack/mods/start/nerdtree-git-plugin"]
+	path = pack/mods/start/nerdtree-git-plugin
+	url = https://github.com/Xuyuanp/nerdtree-git-plugin
+[submodule "pack/mods/start/vim-closetag"]
+	path = pack/mods/start/vim-closetag
+	url = https://github.com/alvan/vim-closetag.git
+[submodule "pack/mods/start/vim-polyglot"]
+	path = pack/mods/start/vim-polyglot
+	url = https://github.com/sheerun/vim-polyglot.git
+[submodule "pack/mods/start/vim-devicons"]
+	path = pack/mods/start/vim-devicons
+	url = https://github.com/ryanoasis/vim-devicons
+[submodule "pack/themes/start/vim-airline"]
+	path = pack/themes/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "pack/themes/start/vim-airline-themes"]
+	path = pack/themes/start/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
+[submodule "pack/themes/start/vim-dim"]
+	path = pack/themes/start/vim-dim
+	url = https://github.com/jeffkreeftmeijer/vim-dim.git
