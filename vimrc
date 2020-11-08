@@ -58,6 +58,10 @@ imap <F3> <ESC>:set invcursorline<CR>a
 nmap <F4> :call ColorColumn()<CR>
 imap <F4> <ESC>:call ColorColumn()<CR>i
 
+" Toggle nerdtree
+map <F12> :NERDTreeToggle<CR>
+imap <F12> <ESC>:NERDTreeToggle<CR>
+
 " Show a colored column at 80 characters
 function! ColorColumn()
   if &colorcolumn == ""
