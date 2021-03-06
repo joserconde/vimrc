@@ -9,7 +9,7 @@ My vimrc files
 * Initialice the git submodule and update it.
 
 ```bash
-ln -s ~/.vimrc ~/.vim/vimrc
+ln -s ~/.vim/vimrc ~/.vimrc
 cd ~/.vim/
 git submodule init
 git submodule update
