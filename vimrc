@@ -28,7 +28,7 @@ if &t_Co > 2
 	highlight CursorLine term=NONE cterm=NONE ctermbg=8 ctermfg=15
 	highlight Directory ctermfg=12
 
-  "set colorcolumn=80
+	"set colorcolumn=80
 endif
 
 " Mark trailing spaces depending on whether we have a fancy terminal or not
@@ -64,10 +64,10 @@ imap <F12> <ESC>:NERDTreeToggle<CR>
 
 " Show a colored column at 80 characters
 function! ColorColumn()
-  if &colorcolumn == ""
-    set colorcolumn=80
-  else
-  	set colorcolumn=
-  endif
+	if &colorcolumn == ""
+		set colorcolumn=80
+	else
+		set colorcolumn=
+	endif
 endfunction
 
