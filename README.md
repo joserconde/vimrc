@@ -9,10 +9,15 @@ My vimrc files
 * Initialice the git submodule and update it.
 
 ```bash
-ln -s ~/.vimrc ~/.vim/vimrc
+ln -s ~/.vim/vimrc ~/.vimrc
 cd ~/.vim/
 git submodule init
 git submodule update
+```
+
+One line deploy
+```bash
+mv ~/.vim ~/.vim.bak; mv ~/.vimrc ~/.vimrc.bak; git clone git@github.com:joserconde/vimrc.git ~/.vim; ln -s ~/.vim/vimrc ~/.vimrc; cd ~/.vim/; git submodule init; git submodule update
 ```
 
 Enjoy! :blush:
