@@ -21,7 +21,7 @@ let mapleader=","
 " colorscheme
 if &t_Co > 2
 	syntax on
-	silent! colorscheme dim
+	silent! colorscheme gruvbox
 	set background=dark
 
 	highlight VertSplit cterm=NONE ctermbg=NONE ctermfg=8

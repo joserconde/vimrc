@@ -22,3 +22,6 @@
 [submodule "pack/themes/start/vim-dim"]
 	path = pack/themes/start/vim-dim
 	url = https://github.com/jeffkreeftmeijer/vim-dim.git
+[submodule "pack/themes/start/gruvbox"]
+	path = pack/themes/start/gruvbox
+	url = https://github.com/morhetz/gruvbox.git
