@@ -15,6 +15,7 @@ set nowrap                     " Not wrap long lines
 set number                     " Show line numbers
 set relativenumber             " Show numbers as relative by default
 set showmatch                  " Show matching parentheses and brackets
+set mouse=                     " Set mouse selection not enable visual mode
 
 let mapleader=","
 
